@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Personal Website of Angel</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="images/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none"></a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon">Angel</span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#service" class="nav-item nav-link">Services</a>
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="-primary fw-bold m-0">Angel</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Gallery</a>
+                <a href="#team" class="nav-item nav-link">Hobby</a>
+                <a href="#testimonial" class="nav-item nav-link">Quote</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-white my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Angelica Joshinta Pandelaki</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">IT Professional</div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/profilst.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">Angel</h1>
+                            <h5 class="mb-0">Pandelaki</h5>
+                        </div>
+                        <h3 class="lh-base mb-0">Biografi Singkat</h3>
+                    </div>
+                    <p class="mb-4">"Halo! Nama saya Angelica Joshinta Pandelaki, seorang mahasiswi yang sedang menempuh pendidikan di Politeknik Negeri Manado. Saya lahir dan dibesarkan di Manado, Sulawesi Utara. Sejak kecil, saya tertarik pada dunia teknologi dan komputer, yang mendorong saya untuk mengejar karier di bidang ini.</p>
+                    <p class="mb-4">Saat ini, saya sedang menekuni program studi Informatika di jurusan Elektro. Saya merasa sangat bersemangat untuk mempelajari berbagai aspek pengembangan perangkat lunak, mulai dari pemrograman, basis data, hingga keamanan sistem. Selama di kampus, saya aktif dalam berbagai kegiatan ekstrakurikuler, seperti menjadi anggota tim pengembangan aplikasi mobile dan bergabung dalam klub pengembangan perangkat lunak.</p>
+                    <p class="mb-4">Selain dari akademis, saya juga aktif dalam kegiatan sosial dan relawan di komunitas lokal. Saya percaya bahwa teknologi dapat menjadi alat yang kuat untuk menciptakan perubahan positif dalam masyarakat, dan saya berharap dapat menggunakan pengetahuan dan keterampilan yang saya peroleh untuk memberikan dampak yang positif bagi lingkungan sekitar saya.</p>
+                    <p class="mb-4">Setelah lulus, saya bercita-cita untuk menjadi seorang pengembang perangkat lunak yang berdedikasi, yang mampu menciptakan solusi inovatif dan bermanfaat untuk permasalahan dunia nyata. Saya berharap dapat terus belajar dan berkembang dalam industri ini, serta berkontribusi dalam memajukan teknologi di Indonesia."</p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="images/about1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="images/about2.jpg" alt="">
+                        </div>
+                    </div>
+                    <p class="mb-4">Saya percaya bahwa pendidikan adalah kunci untuk membuka pintu-pintu kesempatan, dan saya sangat bersyukur atas kesempatan untuk belajar di Politeknik Negeri Manado. Di sini, saya telah diberikan kesempatan untuk memperluas wawasan dan keterampilan saya melalui kurikulum yang berorientasi pada praktik, serta mendapatkan dukungan dari dosen-dosen yang berpengalaman dan berdedikasi.</p>
+                    <p class="mb-0">Selain itu, saya juga memiliki minat yang mendalam dalam bidang kecerdasan buatan (artificial intelligence) dan pengembangan aplikasi berbasis kecerdasan buatan. Saya tertarik untuk menjelajahi potensi teknologi ini dalam meningkatkan efisiensi dan kualitas kehidupan manusia. Melalui kombinasi antara pengetahuan dalam bidang informatika dan minat dalam kecerdasan buatan, saya berharap dapat menciptakan terobosan dan kontribusi yang berarti dalam dunia teknologi."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skill & Pengalaman</h1>
+                    <p class="mb-4">Mahasiswi bersemangat dengan IPK 3,83, terampil dalam penggunaan komputer, dan berpengalaman di IT. Mencari peluang untuk berkontribusi pada organisasi yang dinamis dan berpikiran maju.</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">HTML</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">CSS</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">PHP</h6>
+                                    <h6 class="font-weight-bold">80%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Javascript</h6>
+                                    <h6 class="font-weight-bold">50%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">C</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Wordpress</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Pengalaman</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Pendidikan</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Information Communication Technology</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">29 April - 7 Oktober 2022</p>
+                                    <h6 class="mb-0">PT.Pertamina Geothermal Energy area Lahendong</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Sekolah Dasar</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2012 - 2017</p>
+                                    <h6 class="mb-0">SD Negeri Inpres Watumea</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Sekolah Menengah Pertama</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2017 - 2019</p>
+                                    <h6 class="mb-0">SMP Negeri 1 Tondano</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Sekolah Menengah Kejuruan (Teknik Komputer & Jaringan)</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2020 - 2023</p>
+                                    <h6 class="mb-0">SMK Kristen 1 Tomohon</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Perguruan Tinggi</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2023 - Soon</p>
+                                    <h6 class="mb-0">Politeknik Negeri Manado</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Layanan Saya</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Rekrut Saya</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-crop-alt fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Desain Kreatif</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">Rp0</span></h6>
+                            <span>Jasa Desain Kreatif untuk Mewujudkan Ide Anda
+                               <li>Membantu Anda merancang dan membuat solusi yang inovatif dan menarik.</li>
+                               <li>Menawarkan berbagai layanan desain, seperti desain grafis, desain web, dan desain produk.</li>
+                               <li>Bekerja sama dengan Anda untuk memahami kebutuhan Anda dan menciptakan solusi yang sempurna.</li>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code-branch fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Desain Grafis</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">Rp0</span></h6>
+                            <span>
+                                Jasa Desain Kreatif untuk Mewujudkan Ide Anda
+                                <li>Membantu Anda merancang dan membuat solusi yang inovatif dan menarik.</li>
+                                <li>Menawarkan berbagai layanan desain, seperti desain grafis, desain web, dan desain produk.</li>
+                                <li>Bekerja sama dengan Anda untuk memahami kebutuhan Anda dan menciptakan solusi yang sempurna.</li>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Desain Web</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">Rp0</span></h6>
+                            <span>
+                                Membangun Website yang Menarik dan Berkinerja Tinggi
+                                <li>Menciptakan website yang profesional, menarik, dan mudah digunakan.</li>
+                                <li>Memastikan website Anda dioptimalkan untuk mesin pencari (SEO).</li>
+                                <li>Membantu Anda mencapai tujuan bisnis Anda secara online.</li>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">UI/UX Desain</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">Rp0</span></h6>
+                            <span>
+                                Membangun Website yang Menyenangkan dan Mudah Digunakan
+                                <li>Menciptakan pengalaman pengguna (UX) yang intuitif dan menyenangkan.</li>
+                                <li>Merancang antarmuka pengguna (UI) yang menarik dan estetis.</li>
+                                <li>Memastikan website Anda mudah dinavigasi dan digunakan.</li>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Gallery</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">Semua Foto</li>
+                        <li class="mx-3" data-filter=".first">Keluarga</li>
+                        <li class="mx-3" data-filter=".second">Kegiatan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="images/f1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="images/f1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="images/f2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="images/f2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="images/f3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="images/f3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="images/f4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="images/f4.JPG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="images/f7.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="images/f7.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="images/f6.JPG" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="images/f6.JPG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+    <!-- Hobby 1 -->
+    <div class="container-xxl py-6 pb-5" id="team">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Hobi Saya</h1>
+                    <h2 class="display-5 mb-0">Membaca</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="images/baca.jpg" alt="">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5>Membaca</h5>
+                                <span>Foto ini diambil di Toko Gramedia Manado.</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="images/baca2.jpg" alt="">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5>Membaca</h5>
+                                <span>Foto ini diambil di Toko Gramedia Manado.</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="images/baca3.jpg" alt="">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5>Membaca</h5>
+                                <span>Foto ini diambil di Toko Gramedia Manado.</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hobby 1-->
+
+        <!-- Hobby 2 -->
+        <div class="container-xxl py-6 pb-5" id="team">
+            <div class="container">
+                <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-6">
+                        <h1 class="display-5 mb-0">Hobi Saya</h1>
+                        <h2 class="display-5 mb-0">Fotografi</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item position-relative">
+                            <img class="img-fluid rounded" src="images/fotografi2.jpg" alt="">
+                            <div class="team-text bg-white rounded-end p-4">
+                                <div>
+                                    <h5>Matahari terbenam di pinggir Danau.</h5>
+                                    <span>Foto ini diambil di Desa Watumea,Kec.Eris.</span>
+                                </div>
+                                <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item position-relative">
+                            <img class="img-fluid rounded" src="images/fotografi.jpg" alt="">
+                            <div class="team-text bg-white rounded-end p-4">
+                                <div>
+                                    <h5>Pohon yang dilatarbelakangi dengan langit Biru,</h5>
+                                    <span>Foto ini diambil Kiniar, Tondano</span>
+                                </div>
+                                <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item position-relative">
+                            <img class="img-fluid rounded" src="images/fotografi3.jpg" alt="">
+                            <div class="team-text bg-white rounded-end p-4">
+                                <div>
+                                    <h5>Matahari terbenam di pinggir Laut.</h5>
+                                    <span>Foto ini diambil di Kawasan Megamas, Manado</span>
+                                </div>
+                                <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hobby 2-->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Quote</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="images/monroe.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="images/einstein.jpeg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="images/marc.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="images/monroe.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">"I believe that everything happens for a reason. People change so that you can learn to let go, things go wrong so that you appreciate them when they're right, you believe lies so you eventually learn to trust no one but yourself, and sometimes good things fall apart so better things can fall together."</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Marylin Monroe</h5>
+                            <span>Dari kata-kata Marilyn Monroe, kita dapat belajar untuk merangkul diri kita sendiri, hidup dengan keberanian dan kepercayaan diri, serta menerima tantangan dan kegagalan sebagai bagian alami dari perjalanan hidup.</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="images/einstein.jpeg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">"We must strive to be the best human beings we can be. In our work, in our lives, we must remain sincere and cautious." </p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Albert Einstein</h5>
+                            <span>Kata-kata ini memotivasi kita untuk menjadi pribadi yang baik, tulus, dan hati-hati dalam tindakan dan kata-kata kita, serta konsisten dalam menjalani kehidupan kita sehari-hari.</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="images/marc.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">"The biggest risk is not taking any risk. In a world that's changing really quickly, the only strategy that is guaranteed to fail is not taking risks."</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Mark Zuckerberg</h5>
+                            <span>Kata-kata mengingatkan kita bahwa mengambil risiko adalah bagian yang tak terhindarkan dari menjalani kehidupan dan mengejar tujuan kita, dan bahwa seringkali keberanian untuk mengambil risiko adalah kunci untuk mencapai kesuksesan dan memanfaatkan peluang yang ada.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="images/monroe.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="images/einstein.jpeg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="images/marc.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Ayo Kerjasama!</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Hallo</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">Alamat:</p>
+                    <h3 class="fw-bold">Zilena Home 1 Politeknik Negeri Manado,Kecamatan Mapanget Kelurahan Buha, Kota Manado, Provinsi Sulawesi Utara.</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">WhatsApp:</p>
+                    <h3 class="fw-bold">+62 8539 5518 325</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Email:</p>
+                    <h3 class="fw-bold">joshintapandelaki@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href="https://www.instagram.com/angelicapandelaki?igsh=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/angelica.pandelaki" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://youtube.com/@angelicapandelaki483?feature=shared" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <form action="php/kontak.php" method="post">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom text-secondary" href="#">Angel's Personal Web Page</a>, All Right Reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
